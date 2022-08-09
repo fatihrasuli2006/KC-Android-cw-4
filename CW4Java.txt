@@ -5,9 +5,23 @@
         TextView t = findViewById(R.id.result);
 
         // اكتب دالة عملية الجمع هنا
-
+        
+         int result = num1 + num2;
 
         //اكتب كود تفعيل الزر هنا
 
+b.setOnClickListener(new View.OnClickListener()  {
+            @Override
+            public void onClick(View View) {
 
+                int num1 = Integer.parseInt(Ed1.getText().toString());
+                int num2 = Integer.parseInt(Ed2.getText().toString());
+
+                int result = num1 + num2;
+
+                t.setText(String.valueOf(result));
+
+            }
+
+        });
 

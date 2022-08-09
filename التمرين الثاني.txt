@@ -1,0 +1,15 @@
+public class Main
+{
+	public static void main(String[] args) {
+	
+int num1 = 50;
+
+ 
+ 
+    if (num1 > 23) {
+  System.out.println("hot");
+} else if (num1 < 23) {
+  System.out.println("cold");
+}
+	}
+}

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="total">Total</string>
+    <string name="calculate">calculate</string>
+    <string name="Calculate">=</string>
+    <string name="Total">Total</string>
+    <string name="first_number">First Number</string>
+    <string name="second_number">Second Number</string>
+    <string name="coll">+</string>
+    <string name="min">-</string>
+    <string name="div">/</string>
+    <string name="mul">x</string>
+</resources>
